@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler#StandardScaler is used to stand
 from sklearn.linear_model import LogisticRegression#It is the algorithm used in this program for the decision makeing...
 from sklearn.metrics import confusion_matrix, accuracy_score #confusion matrix to compare the data and predicted value and using accuarcy test we can predict the accuracy of our model.
 
-dataset= pd.read_csv('CompanyData.csv') #reading the csv file using pandas and storing it in dataset.
+dataset= pd.read_csv('TheDataSheet.csv') #reading the csv file using pandas and storing it in dataset.
 sc=StandardScaler()#assigning StandardScaler as sc
 model= LogisticRegression()#assiging LogisticRegression as model.
 #print(dataset) #This prints the datas of the csv file(stored in dataset variable)
